@@ -150,6 +150,15 @@ app.get('/validateOwner', asyncHandler(async (req, res) => {
   res.status(200).json({ isOwner });
 }));
 
+// Endpoint to list all minted NFTs
+app.get('/nfts', asyncHandler(async (req, res) => {
+  try {
+    res.status(200).json(mintedObjects);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch NFTs' });
+  }
+}));
+
 // Global error handler
 app.use((err, req, res, next) => {
   console.error('Global error handler:', err);
