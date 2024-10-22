@@ -17,6 +17,7 @@ This API provides endpoints for minting, transferring, and managing NFTs (Non-Fu
    - [Get All Minted NFTs](#get-all-minted-nfts)
 6. [Error Handling](#error-handling)
 7. [Metrics Tracking](#metrics-tracking)
+8. [Project Demo](#project-demo)
 
 ## Prerequisites
 
@@ -178,3 +179,7 @@ The API tracks various metrics for performance monitoring:
 - Memory usage
 
 These metrics are logged to the console for each request.
+
+## Project Demo
+
+https://github.com/user-attachments/assets/a2cf15f1-2a91-41bc-bfa9-f11ae288158e
